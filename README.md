@@ -2,10 +2,6 @@
 
 This repository explores the concept of few-shot learning, a subfield of machine learning, where the goal is to learn new tasks or recognize new classes with only a small number of training examples.
 
-## Overview
-Few-shot learning is a challenging problem in machine learning, as traditional algorithms require a large amount of labeled data to achieve good performance. However, in real-world scenarios, it is often impractical or costly to collect a large labeled dataset for every new task or class. Few-shot learning aims to address this limitation by enabling models to generalize from a small number of labeled examples.
-
-In this repository, we demonstrate the feasibility of few-shot learning using only 5 images. By leveraging transfer learning and state-of-the-art deep learning architectures, we showcase how a model can be trained to recognize new classes with minimal training data.
 
 ## Train:
 <img width="60%" src="./files/train.jpg">
@@ -14,7 +10,10 @@ In this repository, we demonstrate the feasibility of few-shot learning using on
 <img width="70%" src="./files/football-anim.gif">
 
 
+## Overview
+Few-shot learning is a challenging problem in machine learning, as traditional algorithms require a large amount of labeled data to achieve good performance. However, in real-world scenarios, it is often impractical or costly to collect a large labeled dataset for every new task or class. Few-shot learning aims to address this limitation by enabling models to generalize from a small number of labeled examples.
 
+In this repository, we demonstrate the feasibility of few-shot learning using only 5 images. By leveraging transfer learning and state-of-the-art deep learning architectures, we showcase how a model can be trained to recognize new classes with minimal training data.
 
 
 # Getting Started
