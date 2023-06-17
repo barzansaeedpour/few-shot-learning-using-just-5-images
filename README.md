@@ -21,7 +21,7 @@ In this repository, we demonstrate the feasibility of few-shot learning using on
 
 To get started with this project, follow these steps:
 
-1. Click this link to open the notebook in Colab: https://colab.research.google.com/github/barzansaeedpour/repository/blob/main/notebook.ipynb
+1. Click this link to open the notebook in Colab: https://colab.research.google.com/github/barzansaeedpour/few-shot-learning-using-just-5-images/blob/main/few_shot_learning_using_just_5_images.ipynb
 
 2. The instruction and explaination of the code is mentioned in the notebook
 
