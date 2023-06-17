@@ -1,7 +1,6 @@
 # Few-Shot Learning with Only 5 Images
 
-This repository explores the concept of few-shot learning, a subfield of machine learning, where the goal is to learn new tasks or recognize new classes with only a small number of training examples.
-
+In this repository, we leverage the power of few-shot learning combined with a transfer learning approach to tackle the task of object detection.
 
 ## Train:
 <img width="60%" src="./files/train.jpg">
@@ -24,7 +23,19 @@ To get started with this project, follow these steps:
 
 2. The instruction and explaination of the code is mentioned in the notebook
 
+## Date set
 
+The training dataset includes images where you can label them in the notebook, or use the predefined labels.
+
+The testing dataset includes 38 images which you can use to test the trained model. 
+
+Note: You can download the dataset from dataset directory of this repository, or use the google drive links in the notebook.
+
+## Network
+
+<img width=80% src='./files/retinanet.png'/>
+
+RetinaNet is a powerful object detection model that addresses the challenges of detecting objects at different scales and handling imbalanced class distributions. It combines a feature pyramid network (FPN) with a focal loss function to achieve accurate and efficient object detection. The FPN allows the model to capture multi-scale features from images, enabling it to detect objects of various sizes. The focal loss focuses the training process on challenging examples, giving more weight to difficult-to-detect objects and reducing the influence of easy negatives. This combination of FPN and focal loss makes RetinaNet robust and effective in detecting objects, even in the presence of imbalanced datasets. It has demonstrated state-of-the-art performance in object detection tasks and is widely used in both research and practical applications.
 
 ## Contributing
 
